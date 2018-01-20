@@ -1,0 +1,26 @@
+.table-container {
+     min-width: 800px;
+}
+
+.form-container {
+     min-width: 800px;
+}
+
+ body {
+        background-color: rgba(255, 0, 0, 0.3);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+   }
+
+ table {
+     border-collapse: separate;
+     border-spacing: 6px;
+}
+
+.jumbotron {
+     color: white;
+     background-color: rgba(0,0,0,0.3);
+     min-width: 800px;
+}
