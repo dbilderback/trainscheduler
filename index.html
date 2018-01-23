@@ -23,8 +23,9 @@
           <div class="row">
               <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                             <h3 class="panel-title">Current Train Schedule</h3>
+                        <div id="tableHeader" class="panel-heading" col-lg-12>
+                             <h3 id="title" class="panel-title">Current Train Schedule</h3>
+                             <h3 id='time' class="panel-title text-right">Current Time:</h3>
                         </div>
                         <div class="panel-body">
                         <table class="trainSchedule">
@@ -82,5 +83,11 @@
          </div> 
     </div>
         <script src="assets/js/app.js"></script>
+        <script type="text/javascript">
+          // JavaScript function that wraps everything
+          $(document).ready(function() {
+            init();
+          });
+        </script>
     </body>
   </html>

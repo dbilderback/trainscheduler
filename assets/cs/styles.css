@@ -24,3 +24,16 @@
      background-color: rgba(0,0,0,0.3);
      min-width: 800px;
 }
+
+#time {
+    width: 50%;
+    float: right;
+}
+
+#title {
+    width: 50%;
+}
+
+#tableHeader {
+    display: flex;
+}
