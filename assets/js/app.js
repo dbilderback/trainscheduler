@@ -62,7 +62,7 @@ function resetForm() {
 
 function updateTable() {
      //Empty HTML Table
-     $('.trainSchedule').empty();
+     $('.trainSchedule').children('td').remove();
      //Handle new adds to the database
      dataRef.on("child_added", function(childSnapshot) {
           var nextTrain = '';
